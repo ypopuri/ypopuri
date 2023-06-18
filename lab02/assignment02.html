@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<title>
+		Holaa
+	</title>
+
+	<style type="text/css">
+	
+	body 
+	{
+  		min-height: 100vh;
+  		display: flex;
+  		flex-direction: column;
+	}
+
+	footer 
+	{
+  		margin-top: auto;
+	}
+	
+	.button 
+    	{
+    		border-radius: 90px;
+  		background-color: #808080;
+  		border: none;
+  		color: #FFFFFF;
+  		text-align: center;
+  		font-size: 15px;
+  		padding: 5px;
+  		width: 100px;
+  		transition: all 0.50s;
+  		cursor: pointer;
+  		margin: 5px;
+	}
+	
+    	.button span 
+    	{
+		cursor: pointer;
+  		display: inline-block;
+  		position: relative;
+  		transition: 0.50s;
+	}
+
+	.button span:after 
+    	{
+    		content: '\00bb';
+  		position: absolute;
+  		opacity: 0;
+  		top: 0;
+  		right: -20px;
+  		transition: 0.50s;
+	}
+
+	.button:hover span 
+    	{
+    		padding-right: 25px;
+	}
+
+	.button:hover span:after 
+    	{
+  		opacity: 1;
+		right: 0;
+	}
+	
+	.homebutton 
+	{
+  		padding: 10px 10px;
+  		font-size: 18px;
+  		text-align: center;
+  		cursor: pointer;
+  		color: #fff;
+  		background-color: #0ca5bc;
+  		border-radius: 15px;
+  		box-shadow: 0 10px #999;
+	}
+
+	.homebutton:hover {background-color: #007095}
+
+	.homebutton:active 
+	{
+  		background-color: #007095;
+  		box-shadow: 0 5px rgb(25, 25, 25);
+  		transform: translateY(5px);
+	}
+	
+	.fa 
+    	{
+  		padding: 20px;
+  		font-size: 15px;
+  		width: 30px;
+  		text-align: center;
+  		text-decoration: none;
+  		margin: 5px 5px;
+	}
+	.fa:hover 
+    	{
+    	opacity: 0.7;
+	}
+
+	.fa-facebook 
+    	{
+  		background: #3B5998;
+  		color: white;
+	}
+
+	.fa-twitter 
+    	{
+  		background: #55ACEE;
+  		color: white;
+	}
+
+	.fa-google 
+    	{
+  		background: #dd4b39;
+  		color: white;
+	}
+
+	.fa-linkedin 
+	{
+  		background: #007bb5;
+  		color: white;
+	}
+
+	.fa-instagram 
+    	{
+  		background: #125688;
+  		color: white;
+	}
+	
+	body 
+	{
+  		background-image: url('https://ik.imagekit.io/ikmedia/backlit.jpg');
+  		background-repeat: no-repeat;
+  		background-attachment: fixed; 
+  		background-size: 100%;
+	}
+	
+	
+	.text01 {
+            position: absolute;
+            bottom: 220px;
+            right: 100px;
+        }
+	
+	
+	.text02 {
+            position: absolute;
+            bottom: -820px;
+            right: 100px;
+        }
+
+	.div1 
+	{
+		margin-left: 100px;
+		margin-top: 30px;
+  		border: 0px solid black;
+  		height: 450px;
+  		width: 500px;
+  		background: url(https://media.licdn.com/dms/image/C5603AQG0BCjqZ2OBeA/profile-displayphoto-shrink_800_800/0/1654435859223?e=2147483647&v=beta&t=hKEoZr7IHuDlp-YiGowu9J4A-Qt91RwRSaBFNIrCwME);
+  		background-repeat: no-repeat;
+		background-position: 50px 50px;
+  		background-size: 100%;
+	}
+	
+	.div2 
+	{
+		margin-left: 200px;
+		margin-top: 30px;
+  		border: 0px solid black;
+  		height: 420px;
+  		width: 750px;
+  		background: url(https://i.gifer.com/75WF.gif);
+  		background-repeat: no-repeat;
+  		background-size: 90%;
+	}
+	
+	.div3
+	{
+		margin-left: 600px;
+		margin-top: 30px;
+  		border: 0px solid black;
+  		height: 420px;
+  		width: 750px;
+  		background: url(https://cdn.dribbble.com/users/921277/screenshots/2424135/origami2.gif);
+  		background-repeat: no-repeat;
+  		background-size: 90%;
+	}
+	
+	
+	.div4
+	{
+		margin-left: 340px;
+		margin-top: -90px;
+  		border: 0px solid black;
+  		height: 50px;
+  		width: 50px;
+  		background: url(https://media0.giphy.com/media/vNXtRF3ZmGBwhDM09w/200w.gif?cid=6c09b952wbu2gygdluq9hs8jar5wqnlj2pfld2457qqbjbf3&ep=v1_gifs_search&rid=200w.gif&ct=s);
+  		background-repeat: no-repeat;
+  		background-size: 90%;
+	}
+	
+	
+	.resume
+	{
+            position: absolute;
+            top: 426.7%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+        }
+	
+	.div5
+	{
+		margin-left: 80px;
+		margin-top: -1px;
+  		border: 1px solid black;
+  		height: 300px;
+  		width: 500px;
+  		background: url(https://cdn.dribbble.com/users/125056/screenshots/1476165/99miles-resume-builder-icon-ios.gif);
+  		background-repeat: no-repeat;
+  		background-size: 100%;
+	}
+	
+	.div6
+	{
+		margin-left: 170px;
+		margin-top: 200px;
+  		border: 1px solid black;
+  		height: 300px;
+  		width: 600px;
+  		background: url();
+  		background-repeat: no-repeat;
+  		background-size: 60%;
+	}
+	
+	
+	.div7
+	{
+		margin-left: 300px;
+		margin-top: 20px;
+  		border: 1px solid black;
+  		height: 100px;
+  		width: 90px;
+  		background: url(https://s3.amazonaws.com/cms.ipressroom.com/173/files/20205/5ed7d0ef2cfac24bf2c7735c_Chin-ASL+Glove-1/Chin-ASL+Glove-1_7e6d84fa-588e-43f1-8980-88be7af7fd89-prv.jpg);
+  		background-repeat: no-repeat;
+  		background-size: 100%;
+	}
+	
+	
+	
+	
+</style>
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<div style="float:right"> 
+				<button class="homebutton"><a href="assignment02"><span>Home</span></a></button>
+			</div>
+			<button class="button"><a href="loginpage.html"><span>Login</span></a></button> | <button class="button"><a href="signup.html"><span>Sign Up!</span></a></button> | <button class="button"><a href="contactform.html"><span>Contact</span></a></button> 
+		</nav>
+	</header>
+	<marquee width="100%" behavior="alternate" scrollamount="8" style="color: white">  
+ 		Hola every one wellcome to my website...  
+	</marquee>
+	
+	<main>
+		
+		<div class="div1">
+			<p style="color: white">Yep! you are looking at me...</p>
+			
+		
+		</div>
+		<p>&nbsp;</p>
+		<h3 style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Want to check my works and achievements, them please scroll down a litte </h3>
+		<p>&nbsp;</p>
+		
+		<div>
+			<img src="https://thumbs.gfycat.com/AnguishedGroundedHagfish-max-1mb.gif"width="300" height="300">
+		</div>
+		
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+		<div class="div2">
+			<h2 style="color: black">Works</h2>
+			<ul style="list-style-type:disc;">
+				<li><h3>I have worked for cognizant technology solution as a full stack developer</h3></li>
+  				<li><h3>I am a good team player.</h3></li>
+  				<li><h3>I usually handle all the backend stuff.</h3></li>
+				<li><h3>I've put up a few events with my crew.</h3></li>
+			</ul>
+			<h2 style="color: black">Skills</h2>
+			<ul style="list-style-type:disc;">
+				<li><h3>Undergraduate Electronics majoring helps me come up with more logical<br> 
+					answers to issues. due to the numerous analog and digital circuits we work with</h3></li>
+  				<li><h3>I am skilled in coding thanks to my IOT specialty and previous employment</h3></li>
+  				<li><h3>I have wonderful imagination skill because of my activities</h3></li>
+			</ul>
+			
+		</div>
+		<p>&nbsp;</p>
+		<h2 style="color: red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Want to know my hobbies scroll down a little more</h2>
+
+		<div class = "text01">
+			<p style="color: #5DADE2;">Aim high</p>
+			<p style="color: #F1948A;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ahieve big</p>
+		</div>
+		
+		<div class = "text02">
+			<p style="color: #5DADE2;">Be a</p>
+			<p style="color: #5DADE2;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quick</p>
+			<p style="color: #F1948A;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;learner like</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Octopus</p>
+		</div>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		
+		<div class="div3">
+			<h2 style="color: white">Yep! Yep! this is my favorite hobby </h2>
+			<p>I absolutely enjoy using paper to create various origami. </p>
+			<p>I adore using my origami creations to beautify spaces. </p>
+			<p>&nbsp;</p>
+			<p>In addition, I often play in outdoor sports like Soccer,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and other running games to keep up a solid physique.</p>
+			
+			<div class ="div4"></div>
+		</div>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<h2 style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please review my resume to ensure you have the information I need.</h2>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+		<div class="div5">
+			<div class="resume"><a href="file:///C:/Users/yaswa/OneDrive/Desktop/yashu_resumee.pdf">My Resume</a></div>	
+		</div>
+		
+		
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+		<h2 style="color: white">didn't see my resume? I've prepared stuff for you about me, so don't worry.</h2>
+		<div class="div6">
+			<h2 style="color: white">about my major project</h2>
+			<h3 style="color: white">In this project we worked with advance level of automation techniques and supported hardware and software. We have created a glove with sensors where it can read all x, y and z axis co-ordinates and process the data and at specific range of co-ordinates it will control specific electronic appliances.</h3>
+			<div class ="div7"></div>
+		</div>
+		<p>&nbsp;</p>	
+		
+	</main>
+
+	<footer>
+		<a href="https://www.facebook.com/yaswanthkumar.popuri/" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="https://www.google.com/search?rlz=1C1CHBF_enUS1061US1061&sxsrf=APwXEddmlziHxiF6J6Yu5-KjNXrV_RjCNA:1686905581172&q=yaswanth+kumar.popur&tbm=isch&source=univ&fir=MkIBP-a94bs1eM%252C2yjKb2Sx7RGZ5M%252C_%253BXBlOaxFi44DhkM%252C322_mjiICRxQYM%252C_%253BAi7woEa3KZucoM%252C76Vy5c2ZF4FGWM%252C_%253BpdH8Laufy3c4FM%252CGpdVeNDW_BhiIM%252C_%253BjaTil9Ec1Y9qoM%252CbPpidUSe7rCloM%252C_%253Bu8dZSMeXzmvqcM%252C-XI89UZMxAdGzM%252C_%253Bq4gSdJcnnWKyuM%252CgB6xA8X9_EAJoM%252C_%253BGsGqdtC8cIoRgM%252Cq0s7m31CQzuvqM%252C_%253Bd1JrwVNtpz3pwM%252Cq0s7m31CQzuvqM%252C_%253BnVWOIU8TaMM1pM%252CroW3TtRKDH3A_M%252C_&usg=AI4_-kS95K51qqmpxpwGO3pggnv7xDtcFQ&sa=X&ved=2ahUKEwihtb3_tMf_AhXilGoFHfbPDZcQ7Al6BAg0EBM&biw=1366&bih=619&dpr=1#imgrc=MkIBP-a94bs1eM" class="fa fa-google"></a>
+		<a href="https://in.linkedin.com/in/yaswanth-kumar-popuri-975aa6160" class="fa fa-linkedin"></a>
+		<a href="#" class="fa fa-instagram"></a>
+	</footer>
+	
+</body>
+</html>

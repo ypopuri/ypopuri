@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<style>
+	
+		input[type=text], input[type=password] 
+		{
+  			width: 40%;
+  			padding: 25px;
+  			margin: 15px 0 22px 0;
+  			display: inline-block;
+  			border: none;
+  			background: skyblue;
+		}
+
+		input[type=text]:focus, input[type=password]:focus 
+		{
+  			background-color: #ddd;
+  			outline: none;
+		}
+
+		button 
+		{
+  			background-color: #04AA6D;
+  			color: white;
+  			padding: 10px 10px;
+  			margin: 5px 0;
+  			border: none;
+  			cursor: pointer;
+  			width: 50%;
+  			opacity: 0.6
+		}
+
+		button:hover 
+		{
+  			opacity:1;
+		}
+
+		.cancelbtn 
+		{
+  			padding: 10px 10px;
+  			background-color: #f44336;
+		}
+
+		.cancelbtn, .signupbtn 
+		{
+  			float: left;
+  			width: 50%;
+		}
+
+		.container 
+		{
+  			padding: 5px;
+		}
+
+		.clearfix::after 
+		{
+  			content: "";
+  			clear: both;
+  			display: table;
+		}
+
+		
+		.homebutton 
+		{
+  			padding: 5px 5px;
+  			font-size: 10px;
+  			text-align: center;
+  			cursor: pointer;
+  			color: #fff;
+  			background-color: #0ca5bc;
+  			border-radius: 15px;
+  			box-shadow: 0 10px #999;
+		}
+
+	.homebutton:hover {background-color: #007095}
+
+	.homebutton:active 
+	{
+  		background-color: #007095;
+  		box-shadow: 0 5px rgb(25, 25, 25);
+  		transform: translateY(5px);
+	}
+		
+	
+	body 
+		{
+  			background-image: url('https://media2.giphy.com/media/6mm6ly3pO41B0TOrEX/200w.gif?cid=6c09b952no422gthjo9ypmigiv007mac9muq21w8114v9xgf&ep=v1_gifs_search&rid=200w.gif&ct=g');
+  			background-repeat: no-repeat;
+  			background-attachment: fixed;  
+  			background-size: cover;
+		}
+	
+	</style>
+	<body>
+		<nav>
+			<div style="float:right"> 
+				<button class="homebutton"><a href="file:///C:/Users/yaswa/OneDrive/Desktop/exercise1.html"><span>Home</span></a></button>
+			</div>
+		</nav>
+
+	<form action="/action_page.php" style="border:1px solid #ccc">
+  	<div class="container">
+    		
+    		<hr>
+
+    		<label for="name"><b>Name</b></label>
+    		<input type="text" placeholder="Name" name="email" required>
+
+    		<label for="psw"><b>Contact number</b></label>
+    		<input type="phone number" placeholder="Enter number" name="psw" required>
+
+    		
+    		<div class="clearfix">
+      			<button type="button" class="cancelbtn"><a href = "file:///C:/Users/yaswa/OneDrive/Desktop/exercise1.html">Cancel</a></button>
+      			<button type="submit" class="signupbtn">Lets Talk</button>
+    		</div>
+  	</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{% extends "kiran.html" %}
+{% block content%}
+<div class="jumbotron">
+{% if d|length > 0 %}
+<p>Lets see if your password mets the requirements</p>
+<p>Oh no!Looks like you had issues with your password</p>
+<p>Here are the requirements you failed</p>
+<ul>
+   {% for key, value in d.items() %}
+   {% if value|length > 0 %}
+    <li>{{value}}</li>
+    {% endif %}
+    {% endfor %}
+</ul>
+{% else %}
+<p>Let see if your password mets the requirements</p>
+<p>Your password passed 3 requirements!</p>
+{% endif %}
+</div>
+{% endblock %}

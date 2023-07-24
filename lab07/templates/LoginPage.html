@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<style>
+			body 
+				{
+					background-repeat: no-repeat;
+  					background-attachment: fixed; 		
+  					background-image: url('https://static.vecteezy.com/system/resources/previews/008/079/335/original/empty-showcase-abstract-pastel-color-background-3d-illustration-free-vector.jpg');
+  					background-size: 100%;
+				}
+			h1 {text-align: center;}
+			div {text-align: center;}
+		</style>  
+	</head>
+	<body>	
+		<div class="container">
+			<h1>Login to your account</h1>
+			<form action="{{ url_for('login') }}" method="post">
+	    		{% if mesage is defined and mesage %}
+				<div class="alert alert-warning">{{ mesage }}</div>
+				{% endif %}
+				<div class="form-group">
+					<input type="email" class="form-control" id="email" name="email" placeholder="Username" name="email">
+				</div>
+				<div><a>&nbsp;</a></div>
+				<div class="form-group">
+					<input type="password" class="form-control" id="password" name="password" placeholder="password" name="pswd">
+				</div>  
+				<div><a>&nbsp;</a></div>  
+				<button type="submit" class="btn btn-primary">Login</button>
+				<p class="bottom">Not a Member yet?  <a class="bottom" href="{{url_for('register')}}">Create an Account</a></p>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Database Interface</title>
+</head>
+<body>
+    <h2>Insert Student Record</h2>
+    <form action="index.py" method="post">
+
+        <label for="Fullname">Fullname </label>
+        <input type="text" name="Fullname" required>
+
+        <label for="Midterm1">Midterm 1 </label>
+        <input type="number" name="Midterm1" required>
+
+        <label for="Midterm2">Midterm 2 </label>
+        <input type="number" name="Midterm2" required>
+        <br>
+        <label for="Finalexam">Final Exam:</label>
+        <input type="number" name="Finalexam" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+	<form action= "display.py" method = "post">
+		<input type = "submit" value="display records">
+	</form>
+	
+	<form action= "delete.py" method = "post">
+		<lable for="delrec">delete record</label>
+		<input type="text" name="delrec" required>
+		<input type = "submit" value= "delete record">	    
+	</form>
+</body>
+</html>
